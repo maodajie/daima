@@ -47,7 +47,9 @@ module.exports = {
 		"unformatted": ["wbr"],
 		"html": {
 			"indent_handlebars": true,
-			"indent_inner_html": true,
+			"indent_inner_html": false,
+			"indent_head_inner_html": false,
+			"indent_body_inner_html": false,
 			"indent-scripts": "normal", //[keep|separate|normal]
 			"extra_liners": [] //配置标签列表，需要在这些标签前面额外加一空白行
 		},

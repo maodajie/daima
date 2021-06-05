@@ -23,7 +23,7 @@ layui.define(['jquery'], function(exports) {
 		'info': [{
 			'name': '米上云香港GIA VPS20元起',
 			'link': 'https://www.mishangyun.com/aff.php?aff=35',
-			'pics': 'https://cdn.jsdelivr.net/gh/amujie/mojia@master/asset/img/advert.gif',
+			'pics': 'https://cdn.jsdelivr.net/gh/maodajie/daima@main/theme/image/advert.gif',
 			'tips': '米上云香港GIA VPS20元起，购买魔加主题的新用户，赠送米上云香港VPS一个月使用时间！',
 			'type': 'pic',
 		}, {
