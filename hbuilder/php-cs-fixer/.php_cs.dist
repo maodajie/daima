@@ -9,6 +9,7 @@ return PhpCsFixer\Config::create()
     ->setRules([
         '@PSR2' => true,
         '@PhpCsFixer' => true,
+		'concat_space'=>['spacing' => 'one'],
         'multiline_whitespace_before_semicolons' => ['strategy' => 'no_multi_line'], //分号
         'array_syntax' => ['syntax' => 'short'],
         'combine_consecutive_unsets' => true,   //多个unset，合并成一个
@@ -38,7 +39,7 @@ return PhpCsFixer\Config::create()
         // 'strict_comparison'                     => true,   //严格比较,会修改代码有风险
         //'strict_param'                          => true,
         'ternary_operator_spaces' => true,  //标准化三元运算的格式
-        'ternary_to_null_coalescing' => true,  //尽可能使用null合并运算符??。需要PHP> = 7.0。
+        'ternary_to_null_coalescing' => false,  //尽可能使用null合并运算符??。需要PHP> = 7.0。
         'whitespace_after_comma_in_array' => true, // 在数组声明中，每个逗号后必须有一个空格
         'trim_array_spaces' => true,  //删除数组首或尾随单行空格
         'align_multiline_comment' => [                   //每行多行 DocComments 必须有一个星号（PSR-5），并且必须与第一行对齐。

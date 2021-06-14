@@ -59,7 +59,8 @@ module.exports = {
 			"preserve_newlines": false
 		},
 		"js": {
-			"preserve_newlines": false
+			"preserve_newlines": false,
+			"brace_style": "collapse,preserve-inline"
 		},
 	}
 }
